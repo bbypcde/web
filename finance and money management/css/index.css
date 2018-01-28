@@ -1,0 +1,223 @@
+/*intro开始*/
+#intro
+{
+/*background: #f00;*/
+}
+#news, #career
+{
+width: 334px;
+/*height: 187px;*/
+/*background: #ccc;*/
+float: left;
+margin-right: 30px;
+margin-top: 20px;
+}
+.top
+{
+width: 334px;
+float: left;
+background: url(../img/xw_1.png) no-repeat left center;
+border-bottom: 2px solid #EA3939;
+text-indent: 20px;
+color: #EA3939;
+padding-bottom: 3px;
+position: relative;
+}
+.second
+{
+background-image: url(../img/xw_2.png);
+border-bottom-color: black;
+}
+.top a
+{
+float: right;
+margin-right: 5px;
+/*font-weight: bolder;*/
+color: #5A5A5A;
+font-size: 12px;
+}
+.top a:hover
+{
+color: #f00;
+}
+.date
+{
+float: right;
+margin-right: 2px;
+}
+.bottom
+{
+/*float: none;*/
+position: absolute;
+top: 46px;
+}
+.bottom li
+{
+width: 334px;
+height: 20px;
+background: url(../img/article_arrow.gif) no-repeat 5px center;
+text-indent: 15px;
+border-bottom: 1px dotted #0f0;
+padding: 5px 0 3px 0px;
+}
+.bottom a:hover
+{
+color: #f00;
+}
+#service
+{
+height: 187px;
+/*background: #ccc;*/
+float: right;
+margin-right: 30px;
+margin-top: 20px
+}
+#first, #second, #third
+{
+width: 100px;
+float: left;
+height: 187px;
+margin-right: 10px;
+}
+#first
+{
+background: url(../img/sy_tz_1.jpg) no-repeat;
+}
+#second
+{
+background: url(../img/sy_tz_2.jpg) no-repeat;
+}
+#third
+{
+background: url(../img/sy_tz_3.jpg) no-repeat;
+/*margin-right: 0;*/
+}
+.zh
+{
+margin-top: 125px;
+/*color:#f00;*/
+font-weight: bolder;
+text-align: center;
+font: 12px/2.3;
+padding-top: 3px;
+}
+.zh a
+{
+color:#f00;
+}
+.en
+{
+color: #5A5A5A;
+font-size: 8px;
+text-align: center;
+margin-top: 5px;
+}
+#first:hover
+{
+background: url(../img/sy_tz_1_h.jpg) no-repeat;
+
+}
+#second:hover
+{
+background: url(../img/sy_tz_2_h.jpg) no-repeat;
+}
+#third:hover
+{
+background: url(../img/sy_tz_3_h.jpg) no-repeat;
+}
+#service a:hover
+{
+
+}
+#about
+{
+/*background: #ccc;*/
+width: 100%;
+float: left;
+}
+#about-me
+{
+width: 298px;
+height: 317px;
+margin-right: 10px;
+float: left;
+background: #0f0;
+background: url(../img/ab_t.jpg) no-repeat;
+}
+#about-me p
+{
+margin-top: 133px;
+padding: 20px 0 20px 10px;
+border: 1px solid #ccc;
+border-top: 0;
+line-height: 20px;
+}
+#invest-affires
+{
+width: 276px;
+height: 315px;
+margin-right: 10px;
+float: left;
+background: #f1f1f1 url(../img/yw_t.png) no-repeat  88px 160px;
+}
+#invest-affires h4
+{
+color: #f00;
+margin: 30px 0 10px 20px;
+}
+#invest-affires p
+{
+margin-left: 20px;
+line-height: 30px;
+}
+#invest-affires a
+{
+color: #f00;
+margin-left: 20px;
+}
+#contact
+{
+width: 505px;
+height: 153px;
+margin-bottom: 10px;
+/*float: left;*/
+/*background: #00f;*/
+float: right;
+background: #f1f1f1 url(../img/call_t.png) no-repeat left center;
+}
+#information
+{
+float: right;
+margin-right: 50px;
+margin-top: 30px;
+}
+#information p
+{
+margin-bottom: 10px;
+font-size: 14px;
+}
+#employ
+{
+width: 505px;
+height: 153px;
+float: right;
+background: #f1f1f1 url(../img/zp_t.png) no-repeat left center;
+}
+#employ-information
+{
+float: right;
+margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+#employ-information h4
+{
+color: #f00;
+margin-bottom: 10px;
+}
+#employ-information p
+{
+font-size: 10px;
+line-height: 30px;
+}
+/*intro结束*/
